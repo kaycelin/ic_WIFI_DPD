@@ -51,10 +51,14 @@ cfr_paprDb_vec = [9]; // set cfr vectors
 <img src="https://github.com/user-attachments/assets/20321d3a-8c05-4984-bde5-eb89485b9323" width="60%">
 <img src="https://github.com/user-attachments/assets/bea3c6fa-b334-41d8-a74d-6ea9a8f30524" width="60%">
 
+## Simulation Results
 ### Simulate PA wi/wo DPD vs CFR
 <img src="https://github.com/user-attachments/assets/b38d8074-34cd-4f3d-a205-c8f97daf3fd7" width="50%">
 <img src="https://github.com/user-attachments/assets/969925b3-fb08-4651-953c-ca68e20e568d" width="50%">
 
 |**EVM**  |**ACLR**  |
 |---------|---------|
-| ![Image 1](https://github.com/user-attachments/assets/b38d8074-34cd-4f3d-a205-c8f97daf3fd7) | ![Image 2](https://github.com/user-attachments/assets/969925b3-fb08-4651-953c-ca68e20e568d). |
+| ![Image 1](https://github.com/user-attachments/assets/b38d8074-34cd-4f3d-a205-c8f97daf3fd7) | ![Image 2](https://github.com/user-attachments/assets/969925b3-fb08-4651-953c-ca68e20e568d). |    
+
+### Simulate the conditions for reusing DPD coefficients
+<img src="https://github.com/user-attachments/assets/6595bc4f-396a-4f90-9f3a-9be36617cee4" width="60%">
