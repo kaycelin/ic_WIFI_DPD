@@ -44,48 +44,22 @@ cfr_paprDb_vec = [9]; // set cfr vectors
 - Cenerate PA output signal by PA model, `paOutputWiDpd`
 - Demodulated siganl and evaluation
 
-<img src="https://github.com/user-attachments/assets/ef385d1f-33b6-419d-880c-b7ff5dc14e64" width="60%">
-<img src="https://github.com/user-attachments/assets/45ffee83-900b-4a13-9422-5acbfda894d8" width="60%">
-<img src="https://github.com/user-attachments/assets/31fadb37-8434-4b13-83e9-0de59bbe2cc1" width="60%">
-<img src="https://github.com/user-attachments/assets/29ca5412-34d0-47fb-854f-8d402931c76d" width="60%">
-<img src="https://github.com/user-attachments/assets/20321d3a-8c05-4984-bde5-eb89485b9323" width="60%">
-<img src="https://github.com/user-attachments/assets/bea3c6fa-b334-41d8-a74d-6ea9a8f30524" width="60%">
+|**AMAM & AMPM**  |**ACLR**  |
+|:--:|:--:|
+| ![Image 1](https://github.com/user-attachments/assets/ef385d1f-33b6-419d-880c-b7ff5dc14e64) | ![Image 2](https://github.com/user-attachments/assets/45ffee83-900b-4a13-9422-5acbfda894d8). |    
+
+
+|**Constellation**  |**EVM Subcarriers**  |
+|:--:|:--:|
+| ![Image 1](https://github.com/user-attachments/assets/31fadb37-8434-4b13-83e9-0de59bbe2cc1) | ![Image 2](https://github.com/user-attachments/assets/29ca5412-34d0-47fb-854f-8d402931c76d). |     
+|**Flatness**       |**Spectral Mask**    |
+| ![Image 3](https://github.com/user-attachments/assets/20321d3a-8c05-4984-bde5-eb89485b9323) | ![Image 4](https://github.com/user-attachments/assets/bea3c6fa-b334-41d8-a74d-6ea9a8f30524). |    
 
 ## Simulation Results
 ### Simulate PA wi/wo DPD vs CFR
-<img src="https://github.com/user-attachments/assets/b38d8074-34cd-4f3d-a205-c8f97daf3fd7" width="50%">
-<img src="https://github.com/user-attachments/assets/969925b3-fb08-4651-953c-ca68e20e568d" width="50%">
-
 |**EVM**  |**ACLR**  |
-|---------|---------|
+|:--:|:--:|
 | ![Image 1](https://github.com/user-attachments/assets/b38d8074-34cd-4f3d-a205-c8f97daf3fd7) | ![Image 2](https://github.com/user-attachments/assets/969925b3-fb08-4651-953c-ca68e20e568d). |    
 
 ### Simulate the conditions for reusing DPD coefficients
 <img src="https://github.com/user-attachments/assets/6595bc4f-396a-4f90-9f3a-9be36617cee4" width="60%">
-
-
-
-|13|	EHT160|	12.11	|Coefs_New|	12|	640|	memPolyFit|
-|---------|---------|---------|---------|---------|---------|---------|
-
-<table>
-  <tr>
-    <th style="width: 33%;">標題 1</th>
-    <th style="width: 33%;">標題 2</th>
-    <th style="width: 33%;">標題 3</th>
-  </tr>
-  <tr>
-    <td>內容 1</td>
-    <td>內容 2</td>
-    <td>內容 3</td>
-  </tr>
-  <tr>
-    <td>更長的內容</td>
-    <td>短內容</td>
-    <td>中等內容</td>
-  </tr>
-</table>
-
-13	EHT160	12.11	Coefs_New	12	640	memPolyFit
-13	EHT160	12.11	Coefs_New	12	640	memPolyFit
-13	EHT160	12.11	Coefs_New	12	640	memPolyFit
