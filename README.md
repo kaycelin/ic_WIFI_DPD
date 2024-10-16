@@ -62,3 +62,30 @@ cfr_paprDb_vec = [9]; // set cfr vectors
 
 ### Simulate the conditions for reusing DPD coefficients
 <img src="https://github.com/user-attachments/assets/6595bc4f-396a-4f90-9f3a-9be36617cee4" width="60%">
+
+
+
+|13|	EHT160|	12.11	|Coefs_New|	12|	640|	memPolyFit|
+|---------|---------|---------|---------|---------|---------|---------|
+
+<table>
+  <tr>
+    <th style="width: 33%;">標題 1</th>
+    <th style="width: 33%;">標題 2</th>
+    <th style="width: 33%;">標題 3</th>
+  </tr>
+  <tr>
+    <td>內容 1</td>
+    <td>內容 2</td>
+    <td>內容 3</td>
+  </tr>
+  <tr>
+    <td>更長的內容</td>
+    <td>短內容</td>
+    <td>中等內容</td>
+  </tr>
+</table>
+
+13	EHT160	12.11	Coefs_New	12	640	memPolyFit
+13	EHT160	12.11	Coefs_New	12	640	memPolyFit
+13	EHT160	12.11	Coefs_New	12	640	memPolyFit
