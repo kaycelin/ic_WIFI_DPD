@@ -55,6 +55,7 @@ cfr_paprDb_vec = [9]; // set cfr vectors
 
 ## Simulation Results
 ### Simulate PA wi/wo DPD vs CFR
+        
 |**EVM**  |**ACLR**  |
 |:--:|:--:|
 | ![Image 1](https://github.com/user-attachments/assets/b38d8074-34cd-4f3d-a205-c8f97daf3fd7) | ![Image 2](https://github.com/user-attachments/assets/969925b3-fb08-4651-953c-ca68e20e568d) |    
@@ -62,7 +63,7 @@ cfr_paprDb_vec = [9]; // set cfr vectors
 ### Simulate the conditions for reusing DPD coefficients
 <img src="https://github.com/user-attachments/assets/6595bc4f-396a-4f90-9f3a-9be36617cee4" width="60%">
 
-### Simulate PA wi/wo DPD vs CFR, conscidering flatness    
+### Simulate PA wi/wo DPD vs CFR, conscidering flatness
 |**EVM**  |**ACLR**  |
 |:--:|:--:|
 | ![Image 1](https://github.com/user-attachments/assets/b6258799-b35f-426b-9ed7-082b4d1f5b51) | ![Image 2](https://github.com/user-attachments/assets/1bcef2b3-ac60-4d6a-8fea-3dbd1053a84d) | 
@@ -75,8 +76,8 @@ cfr_paprDb_vec = [9]; // set cfr vectors
 |**Flatness**       |**Spectral Mask**    |
 | ![Image 3](https://github.com/user-attachments/assets/a8f98161-c3d7-42c0-95b4-2bdddfa703ab) | ![Image 4](https://github.com/user-attachments/assets/c0deadef-f35d-4720-89bb-40067c2ce708) |    
 
-- Demodulation of EHT320 at 15dBm with flatness 2dB        
-    
+- Demodulation of EHT320 at 15dBm with flatness 2dB
+         
 |**Constellation**  |**EVM Subcarriers**  |
 |:--:|:--:|
 | ![Image 1](https://github.com/user-attachments/assets/afdfb21d-e06d-47a1-8eca-f9f1c96abeff) | ![Image 2](https://github.com/user-attachments/assets/0944c7e9-e9f4-4c35-b5ea-8f05dd1ea0b3) |     
