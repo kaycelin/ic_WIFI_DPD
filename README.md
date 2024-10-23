@@ -46,9 +46,7 @@ cfr_paprDb_vec = [9]; // set cfr vectors
 
 |**AMAM & AMPM**  |**ACLR**  |
 |:--:|:--:|
-| ![Image 1](https://github.com/user-attachments/assets/ef385d1f-33b6-419d-880c-b7ff5dc14e64) | ![Image 2](https://github.com/user-attachments/assets/45ffee83-900b-4a13-9422-5acbfda894d8) |    
-
-
+| ![Image 1](https://github.com/user-attachments/assets/ef385d1f-33b6-419d-880c-b7ff5dc14e64) | ![Image 2](https://github.com/user-attachments/assets/45ffee83-900b-4a13-9422-5acbfda894d8) |        
 |**Constellation**  |**EVM Subcarriers**  |
 |:--:|:--:|
 | ![Image 1](https://github.com/user-attachments/assets/31fadb37-8434-4b13-83e9-0de59bbe2cc1) | ![Image 2](https://github.com/user-attachments/assets/29ca5412-34d0-47fb-854f-8d402931c76d) |     
@@ -63,3 +61,25 @@ cfr_paprDb_vec = [9]; // set cfr vectors
 
 ### Simulate the conditions for reusing DPD coefficients
 <img src="https://github.com/user-attachments/assets/6595bc4f-396a-4f90-9f3a-9be36617cee4" width="60%">
+
+### Simulate PA wi/wo DPD vs CFR, conscidering flatness    
+|**EVM**  |**ACLR**  |
+|:--:|:--:|
+| ![Image 1](https://github.com/user-attachments/assets/b6258799-b35f-426b-9ed7-082b4d1f5b51) | ![Image 2](https://github.com/user-attachments/assets/1bcef2b3-ac60-4d6a-8fea-3dbd1053a84d) | 
+    
+- Demodulation of HT20 at 27dBm with flatness 2dB    
+
+|**Constellation**  |**EVM Subcarriers**  |
+|:--:|:--:|
+| ![Image 1](https://github.com/user-attachments/assets/6407092e-d0f0-4628-a3fa-f8222be40194) | ![Image 2](https://github.com/user-attachments/assets/e9b0cfd6-1f9e-41e3-a18e-5c3440b96df9) |     
+|**Flatness**       |**Spectral Mask**    |
+| ![Image 3](https://github.com/user-attachments/assets/a8f98161-c3d7-42c0-95b4-2bdddfa703ab) | ![Image 4](https://github.com/user-attachments/assets/c0deadef-f35d-4720-89bb-40067c2ce708) |    
+
+- Demodulation of EHT320 at 15dBm with flatness 2dB        
+    
+|**Constellation**  |**EVM Subcarriers**  |
+|:--:|:--:|
+| ![Image 1](https://github.com/user-attachments/assets/afdfb21d-e06d-47a1-8eca-f9f1c96abeff) | ![Image 2](https://github.com/user-attachments/assets/0944c7e9-e9f4-4c35-b5ea-8f05dd1ea0b3) |     
+|**Flatness**       |**Spectral Mask**    |
+| ![Image 3](https://github.com/user-attachments/assets/31b82c5a-3da2-4161-8fe4-285b45523e80) | ![Image 4](https://github.com/user-attachments/assets/bffccd54-3b86-464e-9161-9d6f6269fd03) |    
+
