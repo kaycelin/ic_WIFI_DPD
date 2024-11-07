@@ -48,7 +48,6 @@ cfr_paprDb_vec = [9]; // set cfr vectors
 |:--:|:--:|
 | ![Image 1](https://github.com/user-attachments/assets/ef385d1f-33b6-419d-880c-b7ff5dc14e64) | ![Image 2](https://github.com/user-attachments/assets/45ffee83-900b-4a13-9422-5acbfda894d8) |        
 |**Constellation**  |**EVM Subcarriers**  |
-|:--:|:--:|
 | ![Image 1](https://github.com/user-attachments/assets/31fadb37-8434-4b13-83e9-0de59bbe2cc1) | ![Image 2](https://github.com/user-attachments/assets/29ca5412-34d0-47fb-854f-8d402931c76d) |     
 |**Flatness**       |**Spectral Mask**    |
 | ![Image 3](https://github.com/user-attachments/assets/20321d3a-8c05-4984-bde5-eb89485b9323) | ![Image 4](https://github.com/user-attachments/assets/bea3c6fa-b334-41d8-a74d-6ea9a8f30524) |    
