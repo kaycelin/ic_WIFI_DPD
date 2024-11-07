@@ -7,20 +7,20 @@ Simulation of WLAN coporate with DPD
 <img src="https://github.com/user-attachments/assets/8906efe5-eb29-4099-8f39-68f42f8f9cae" width="60%">
 
 ### Set Test Waveform
-```js
-Rohm = 1 // set resistor in ohm
-RbwKHz = 10 // set resolution bw for aclr plot
-testSignal = "WIFI"; // select signal
+```matlab
+Rohm = 1 % set resistor in ohm
+RbwKHz = 10 % set resolution bw for aclr plot
+testSignal = "WIFI"; % select signal
 ```
 ### PA Characterization
 - Memory/MemoryLess Polynomianl Model with/without Cross Term 
-```js
-setInputPowerRangeDbm = -70; // set the mimimun power of pa input instantaneous signal
+```matlab
+setInputPowerRangeDbm = -70; % set the mimimun power of pa input instantaneous signal
 ```
-```js
-//set fitting model using the polynminal order and memory depth - memory polynominal parameters
-Degree_fit_set={1,Degree_step,7}; // set max. degree based on min. rmsError
-MemoryDepth_fit_set={0,1,2}; // set max. memory based on min. rmsError
+```matlab
+%set fitting model using the polynminal order and memory depth - memory polynominal parameters
+Degree_fit_set={1,Degree_step,7}; % set max. degree based on min. rmsError
+MemoryDepth_fit_set={0,1,2}; % set max. memory based on min. rmsError
 CrossDelay_set=[];
 CrossLag_set=[];
 ```
@@ -31,12 +31,12 @@ CrossLag_set=[];
 - Set signal captured range
 - Set DPD parameters: LinearGain, Model and Algorithm (for comm.DPD tool)
 - Set CFR parameter
-```js
+```matlab
 idxCaptured4Dpd = 1:nSamps;
-dpm.DesiredAmplitudeGaindB = (powerDbm(paOutput_feed4Dpd) - powerDbm(paInput_feed4Dpd))/2 + 0.01*(1); // tuning the linear gain
+dpm.DesiredAmplitudeGaindB = (powerDbm(paOutput_feed4Dpd) - powerDbm(paInput_feed4Dpd))/2 + 0.01*(1); % tuning the linear gain
 dpm.Degree = 7;
 dpm.MemoryDepth = 1;
-cfr_paprDb_vec = [9]; // set cfr vectors
+cfr_paprDb_vec = [9]; % set cfr vectors
 ```
 - Generate or reuse the dpd coefficients, `coefs_dpd`
 - Create pa input signal with DPD, `paInputWiDpd`
